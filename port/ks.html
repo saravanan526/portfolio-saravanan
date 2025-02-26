@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saravanan</title>
+    <link rel="stylesheet" href="ks.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <section class="head">
+        <div>
+            <ul id="navbar">
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#cert">Certification</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="des">
+        <p class="p1">Student Of Computer Science And Engineering</p>
+        <h2>Hi There! I'm <span>Saravanan</span></h2>
+        <p>Sethu Institute Of Technology , Kariapatti </p>
+    </section>
+
+    <section id="but">
+        <a href="https://www.linkedin.com/in/saravanan-k-s-72a521246/"><button class="button-b1" id="b1">Linkedin</button></a>
+        <button class="button-b1" id="b2">Resume</button>
+</section>
+
+<section id="about" class="sec">
+    <h2>About Me</h2>
+    <div class="det">
+    <div class="abt">
+        <!-- <img src="img/sara.jpg" alt="" width="300px" > -->
+         <div class="det">
+<p> PERSONAL OBJECTIVE <br>
+    To Enhance and Develop my Educational and Professional Skills in
+    Stable and Dynamic workplace. <br><br>
+    CAREER OBJECTIVE <br>
+    To secure a challenging position in a reputable Institution, to expand
+    my learning’s, knowledge and skills and to work for the growth of
+    Institution</p>
+</div>
+<div class="edu">
+    <h2>Education Details</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Duration</th>
+                <th>Percentage / CGPA</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>BE, Computer Science and Engineering</td>
+                <td>Sethu Institute of Technology, Kariapatti</td>
+                <td>2022 - 2026</td>
+                <td>CGPA: 7.58% (5th Semester)</td>
+            </tr>
+            <tr>
+                <td>Higher Secondary School Certificate</td>
+                <td>Setupati Higher Secondary School, Madurai</td>
+                <td>2021 - 2022</td>
+                <td>Percentage: 75.8%</td>
+            </tr>
+            <tr>
+                <td>Secondary School Leaving Certificate</td>
+                <td>Setupati Higher Secondary School, Madurai</td>
+                <td>2019 - 2020</td>
+                <td>Percentage: 74.8%</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+    </div>
+</section>
+    <section id="skill">
+        <h2>Skills</h2>
+        <div class="skill-img">
+            <img src="img/html-5 (1).png" alt="" width="100px">            
+            <img src="img/css-3 (1).png" alt="" width="100px">
+            <img src="img/js.png" alt="" width="100px">
+            <img src="img/java (1).png" alt="" width="100px">
+            <img src="img/github.png" alt="" style="background: white;" width="100px">
+</div>
+    </section>
+
+    <section id="project">
+        <h2>Projects</h2>
+        <div class="pro-img">
+            <div class="pro-box">
+                <div class="p1">
+                <a href="https://saravanan526.github.io/E-commerce/e.html"><img src="img/Ecommerce.png" alt="" width="300"></a>
+            </div>
+                <p>E-commerce Website - Build using Html,Css and JavaScript</p>
+            </div>
+            <div class="pro-box">
+                <img src="img/crud.png" alt="" width="300px" height="230px">
+                <p>Student Management System - Build using Java(swing) and sql(sqlite)</p>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="cert">
+        <h2>Certification</h2>
+
+      <div class="cert-img">
+        <div class="cert-box">     
+        <img src="img/codsoft.jpg" alt="">
+        <p>Successfully completed a 4-week 'Java Programming' internship at Codsoft.</p>
+        </div>
+
+        <div class="cert-box">     
+            <img src="img/native.jpg" alt="">
+            <p>Completed the web development online course by Nativeva.</p>
+
+        </div>
+    </div>
+<div class="b">   
+    <a href="cert.html"><button class="button-b1">See more</button>    
+    </a>
+</div>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+            <input type="hidden" name="access_key" value="ba57b9ee-55db-4eb6-8451-552cb8504748">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="button-b1">Send Message</button>
+        </form>
+        <footer>
+        
+            <p>Copyright ©️ 2024 Saravanan</p>
+            
+            <div class="link">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i></a> 
+            <i class="fa-brands fa-linkedin"></i>  </a>
+            </div>
+        <!-- </div> -->
+        </footer>
+    </section>
+    
+
+        <script src="script.js">
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+        // Simple form validation
+  document.getElementById('contact-form').addEventListener('submit', function (e) {
+   e.preventDefault();
+    
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+
+    if (name && email && message) {
+        alert("Thank you for reaching out, " + name + "!");
+        document.getElementById('contact-form').reset(); // Reset the form after submission
+    } else {
+        alert("Please fill in all fields.");
+    }
+});
+
+
+
+
+    </script>
+</body>
+</html>

@@ -9,9 +9,11 @@
 
 </head>
 <body>
-    <section class="head">
+    
+    <section id="head">
         <div>
             <ul id="navbar">
+
                 <li><a href="#about">About</a></li>
                 <li><a href="#project">Project</a></li>
                 <li><a href="#cert">Certification</a></li>
@@ -29,7 +31,9 @@
 
     <section id="but">
         <a href="https://www.linkedin.com/in/saravanan-k-s-72a521246/"><button class="button-b1" id="b1">Linkedin</button></a>
-        <button class="button-b1" id="b2">Resume</button>
+        <button class="button-b1" id="b2" onclick="window.open('Resume.pdf')">Resume</button>
+
+        <!-- <a href="resume/Resume.pdf"></a> -->
 </section>
 
 <section id="about" class="sec">
@@ -147,10 +151,11 @@
             <p>Copyright ©️ 2024 Saravanan</p>
             
             <div class="link">
+                <a href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=ohzlr6l ">   <i class="fa-brands fa-instagram"></i>
+                </a>
             <i class="fa-brands fa-facebook-f"></i>
             <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i></a> 
-            <i class="fa-brands fa-linkedin"></i>  </a>
+            <i class="fa-brands fa-linkedin"></i> 
             </div>
         <!-- </div> -->
         </footer>
@@ -158,6 +163,9 @@
     
 
         <script src="script.js">
+
+
+
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -182,8 +190,6 @@
         alert("Please fill in all fields.");
     }
 });
-
-
 
 
     </script>
